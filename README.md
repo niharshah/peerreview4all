@@ -1,6 +1,7 @@
 # peerreview4all: Fair assignment of reviewers to papers
 
-The python class auto_assigner in autoassigner.py implements the PeerReview4All algorithm (PR4A) of the paper "PeerReview4All: Fair and Accurate Reviewer Assignment in Peer Review" by Ivan Stelmakh, Nihar Shah and Aarti Singh. This code was written by Ivan Stelmakh with some minor modifications by Nihar Shah.
+The python class auto_assigner in autoassigner.py implements the PeerReview4All algorithm (PR4A) of the paper "PeerReview4All: Fair and Accurate Reviewer Assignment in Peer Review" by Ivan Stelmakh, Nihar Shah and Aarti Singh. https://www.jmlr.org/papers/volume22/20-190/20-190.pdf
+This code was written by Ivan Stelmakh with some minor modifications by Nihar Shah.
 
 DEPENDENCIES:
 This code is written in Python 3. The code uses the gurobipy package in python for solving the Linear Programming problems. Gurobi offers free academic licenses for universities. To obtain your license, please go to http://www.gurobi.com/academia/for-universities and follow the instructions provided there.
